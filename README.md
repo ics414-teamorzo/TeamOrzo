@@ -1,6 +1,6 @@
 # TeamOrzo
 
-ICS414 Summer 2018 Calendar (.ics) assignment
+### ICS414 Summer 2018 Calendar (.ics) assignment
 
 Your last assignment is a straightforward implementation using common software
 engineering tools. This is not difficult, but requires some attention to detail. You will
@@ -12,17 +12,18 @@ are on track and demo what you’ve accomplished during the sprint.
 The task, outlined below, is to create .ics “event files”, as described in RFC 5545
 https://tools.ietf.org/html/rfc5545 . Of course, you won’t be implementing
 everything that’s in RFC 5545! I don’t know of any commercial implementation of
-everything in RFC 5545, so you’ll be doing a small piece. Your system will generate
-event files – you are not building a system to read event files. You can use an existing
+everything in RFC 5545, so you’ll be doing a small piece. Your system will **generate
+event files** – you are not building a system to read event files. You can use an existing
 calendaring system like Outlook, Google Calendar, or Mac OS Calendar to read files
-(hint: that’s a good way to test the output of your system). You are building a
+(hint: that’s a good way to test the output of your system). You are *building a
 system to create .ics files that can be emailed or shared, and read into the recipient’s
-calendars.
+calendars.*
 
 Most of your “deliverables” will be meeting as a team with the TA. You can meet
 with the TA in person or on-line, or some combination. Your TA will help schedule
 check-in times. If you miss a meeting, you don’t get any points.
-The first check-in is worth 5 points. This is very simple. You will demonstrate to
+
+The **first check-in** is worth 5 points. This is very simple. You will demonstrate to
 the TA that:
 
 • your team has registered your project on a project repository system (such
@@ -34,7 +35,8 @@ such (such as vim). “Reverse engineering” .ics files can offer significant
 insight.
 
 • This is also the time to ask the TA questions about the assignment.
-The second check-in is worth 5 points. You will demonstrate to the TA that:
+
+The **second check-in** is worth 5 points. You will demonstrate to the TA that:
 
 • you have functioning code that does something: You must demonstrate code,
 even if it is just print statements, that generates a .ics file for a simple, single
@@ -44,7 +46,8 @@ choice (say, google calendar) successfully reads and processes your .ics file.
 
 • You don’t need a user interface for your first check-in since you are just
 generating the .ics file for the single event described above.
-The third check-in is worth 5 points. You will demonstrate to the TA that:
+
+The **third check-in** is worth 5 points. You will demonstrate to the TA that:
 
 • you developing and performing test cases as you are developing code
 
@@ -55,10 +58,12 @@ events that end before they start, …)
 
 • you have a plan for implementing some aspects of recurring events (see
 below)
-The fourth check-in is worth 5 points. You will demonstrate to the TA that:
+
+The **fourth check-in** is worth 5 points. You will demonstrate to the TA that:
 You have performed a usability test on your system with typical users. More on the
 format of the usability test is to come.
-The fifth and final deliverables, worth 5 points, are:
+
+The **fifth and final deliverables**, worth 5 points, are:
 
 • The URL for a 5 minute video demonstration of your final project. Your demo
 shall not be longer than five minutes. You can use jing.com, screencast-omatic.com, …., or if you are using a Mac, QuickTime, to capture your screen to
@@ -71,7 +76,8 @@ how did you test your system and what were the results?
 
 • Each team member turns in the same pdf document, same link to the
 repository, and same link to the video demo.
-Required functionality. You are developing a stand-alone application to create .ics
+
+**Required functionality.** You are developing a stand-alone application to create .ics
 event files. You must demonstrate the following are implemented:
 
 • Version (section 3.7.4 of RFC 5545)
