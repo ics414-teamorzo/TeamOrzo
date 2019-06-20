@@ -13,7 +13,7 @@ coppy and pasted into vim
 coppy and pasted from vim to here
 
 
-`calender.ics
+calender.ics
 
 Wednesday, June 19⋅7:00 – 8:00pm
 
@@ -31,5 +31,5 @@ Organizer: Neezcha Dinman
 
 Neezcha Dinman
 
-Public`
+Public
 
