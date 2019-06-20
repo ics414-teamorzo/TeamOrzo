@@ -7,10 +7,16 @@ an .ics event file and then looked at the content of that file with a text edito
 such (such as vim). “Reverse engineering” .ics files can offer significant
 insight
 
+
 **event created in google calender**
+
 titled calender.ics
+
 coppy and pasted into vim
+
 coppy and pasted from vim to here
+
+#
 
 
 calender.ics
