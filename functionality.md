@@ -12,23 +12,23 @@ Required functionality. You are developing a stand-alone application to create .
 
 • Description:  A value of "2.0" corresponds to this memo.
 
-• VERSION:2.0
+      VERSION:2.0
 
 ### Classification (3.8.1.3). Note this is a way of users designating events as public (default), private, or confidential.
 • Property Name:  CLASS
 
 • Purpose:  This property defines the access classification for a calendar component.
 
-      CLASS:PUBLIC
+            CLASS:PUBLIC
   - Not be opaque, but rather transparent, to searches for busy time
 
-      CLASS:PRIVATE 
+            CLASS:PRIVATE 
  
    - opaque to searches for busy time
 
-      CLASS:CONFIDENTIAL
+            CLASS:CONFIDENTIAL
 
-      CLASS:TOP-SECRET
+             CLASS:TOP-SECRET
 
 ### Geographic Position (3.8.1.6)
 • Property Name:  GEO
