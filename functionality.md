@@ -19,17 +19,16 @@ Required functionality. You are developing a stand-alone application to create .
 
 • Purpose:  This property defines the access classification for a calendar component.
 
-• CLASS:PUBLIC
+      CLASS:PUBLIC
+  - Not be opaque, but rather transparent, to searches for busy time
 
-      • Not be opaque, but rather transparent, to searches for busy time
-
-• CLASS:PRIVATE 
+      CLASS:PRIVATE 
  
-      • opaque to searches for busy time
+   - opaque to searches for busy time
 
-• CLASS:CONFIDENTIAL
+      CLASS:CONFIDENTIAL
 
-•  CLASS:TOP-SECRET
+      CLASS:TOP-SECRET
 
 ### Geographic Position (3.8.1.6)
 • Property Name:  GEO
@@ -41,7 +40,7 @@ Required functionality. You are developing a stand-alone application to create .
 • geovalue   = float ";" float 
              = Latitude and Longitude components
 
-• GEO:37.386013;-122.082932
+      GEO:37.386013;-122.082932
 
 ### Priority (3.8.1.9)
 • Property Name:  PRIORITY
@@ -55,11 +54,11 @@ Required functionality. You are developing a stand-alone application to create .
       priority.  A value of 9 is the lowest priority.
 
 
-• PRIORITY:1
+      PRIORITY:1
 
-• PRIORITY:2
+      PRIORITY:2
 
-• PRIORITY:0
+      PRIORITY:0
 
 ### Summary (3.8.1.12)
 • Property Name:  SUMMARY
@@ -68,7 +67,7 @@ Required functionality. You are developing a stand-alone application to create .
 
 • This property is used in the "VALARM" calendar component to capture the subject of an EMAIL category of alarm.
 
-• SUMMARY:Department Party
+      SUMMARY:Department Party
 
 ### DTSTART (3.8.2.4)
 • Property Name:  DTSTART
@@ -83,9 +82,9 @@ Required functionality. You are developing a stand-alone application to create .
       "VEVENT" calendar components contained in iCalendar objects that
       don't specify the "METHOD" property.
 
-• DTSTART:19980118T073000Z
+      DTSTART:19980118T073000Z
 
-• DTSTART:20190728T160000
+      DTSTART:20190728T160000
 
 ### DTEND (3.8.2.2)
 • Property Name:  DTEND
@@ -96,9 +95,9 @@ Required functionality. You are developing a stand-alone application to create .
 
 • Value MUST match value type
 
-•  DTEND:19960401T150000Z
+      DTEND:19960401T150000Z
 
-• DTEND;VALUE=DATE:19980704
+      DTEND;VALUE=DATE:19980704
 
 
 
