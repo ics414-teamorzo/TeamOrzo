@@ -134,15 +134,14 @@ what you can. For example, you might want to start with being able to
 schedule a meeting on the 25th of every month. Then add the ability to do
 exceptions, such as “except in December”).
 
-• 
+• FREQ
 
-• 
+• COUNT
 
-• 
+• WKST
 
-• 
+• INTERVAL
 
-• 
+• BYDAY
 
-• 
 
